@@ -438,12 +438,14 @@ user-info .fa {
     margin: 40px 5px 0;
     color: #009688;
     cursor: pointer;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .social-links .fa:hover {
     background: #009688;
     color: #fff;
-    transform: translateY(-7);
+    transform: translateY(-7px);
 }
 
 .social-links p {
